@@ -12,4 +12,4 @@ This repository documents my practical journey into Cloud Engineering.
 - Terraform
 - CI/CD
 - Docker
-- Kubernetes
+- Kubernetess
