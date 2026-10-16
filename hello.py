@@ -20,14 +20,14 @@
 # print (miao)
 
 
-# servers = [
-#     {"name":"miao1", "cpu":60},
-#     {"name":"miao2", "cpu":70},
-#     {"name":"miao3", "cpu":81},
-#     {"name":"miao4", "cpu":91},
-#     {"name":"miao5","cpu":40}
+servers = [
+    {"name":"miao1", "cpu":60},
+    {"name":"miao2", "cpu":70},
+    {"name":"miao3", "cpu":81},
+    {"name":"miao4", "cpu":91},
+    {"name":"miao5","cpu":40}
 
-# ]
+]
 for server in servers:
     if server ["cpu"] > 80:
         print (server["name"], "warning")
