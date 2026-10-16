@@ -28,19 +28,19 @@
 #     {"name":"miao5","cpu":40}
 
 # ]
-
-# for server in servers:
-#     if server ["cpu"] > 80:
-#         print (server["name"], "warning")
-#     elif server ["cpu"] > 59 and server ["cpu"] < 71:
-#         print (server["name"], "normal")
-#     else:
-#         print (server["name"],"Nothing")
-
+for server in servers:
+    if server ["cpu"] > 80:
+        print (server["name"], "warning")
+    elif server ["cpu"] > 59 and server ["cpu"] < 71:
+        print (server["name"], "normal")
+    else:
+        print (server["name"],"Nothing")
 
 
-# for number in range (3,16,3):
-#     print (number)
+
+for number in range (3,16,3):
+    print (number)
+
 
 attempt = 1
 while attempt <=4:
