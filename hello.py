@@ -47,3 +47,27 @@ while attempt <=4:
     print ("checking server attempt",attempt)
     attempt = attempt+1
 print("Check completed!")
+
+
+servers = [
+    {"name":"first","cpu":89,"runing":True},
+    {"name":"second","cpu":90,"runing":True},
+    {"name":"third","cpu":91,"runing":False},
+    {"name":"fourth","cpu":91,"runing":False},
+    {"name":"fifth","cpu":91,"runing":True},
+    {"name":"sex","cpu":91,"runing":False}
+
+]
+
+for server in servers:
+    
+    if not server["runing"]:
+        print (server["name"], " server :" , "is stopped")
+        continue
+    if server ["runing"]:
+        print (server["name"], " server :" , "is runing, and the cpu % is " , server["cpu"])
+    
+print("Cheacking is Completed!")
+
+
+
