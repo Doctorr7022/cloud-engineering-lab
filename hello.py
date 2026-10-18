@@ -47,3 +47,4 @@ while attempt <=4:
     print ("checking server attempt",attempt)
     attempt = attempt+1
 print("Check completed!")
+## i forgot this
