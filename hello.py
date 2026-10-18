@@ -47,6 +47,7 @@ while attempt <=4:
     print ("checking server attempt",attempt)
     attempt = attempt+1
 print("Check completed!")
+<<<<<<< HEAD
 
 
 servers = [
@@ -70,4 +71,7 @@ for server in servers:
 print("Cheacking is Completed!")
 
 
+
+
+## i forgot this
 
